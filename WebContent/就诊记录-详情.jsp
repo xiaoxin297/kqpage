@@ -25,108 +25,33 @@
 			<div class="content-box column-right-content">
 				<!-- Start Content Box -->
 				<div class="content-box-header">
-					<h3>就诊记录</h3>
+					<h3>就诊记录详情</h3>
 					<div class="clear"></div>
 				</div>
 				<!-- End .content-box-header -->
 				<div class="content-box-content">
 					<!-- End #tab1 -->
 					<div class="tab-content default-tab" id="tab1">
-						<table>
-							<thead>
-								<tr>
-									<th>姓名</th>
-									<th>医生</th>
-									<th>时间</th>
-									<th>操作</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>张三</td>
-									<td>张医生</td>
-									<td>2014-07-05</td>
-									<td><input type="button" value="详细"></td>
-								</tr>
-								<tr>
-									<td>张三</td>
-									<td>张医生</td>
-									<td>2014-07-05</td>
-									<td><input type="button" value="详细"></td>
-								</tr>
-								<tr>
-									<td>张三</td>
-									<td>张医生</td>
-									<td>2014-07-05</td>
-									<td><input type="button" value="详细"></td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-
-					<div class="tab-content" id="tab0">
-						<form action="">
-							<p>
-								<select class="small-input">
-									<option>项目分类</option>
-								</select>
-							</p>
-							<p>
-							<table>
-								<thead>
-									<tr>
-										<th>选择</th>
-										<th>类别</th>
-										<th>项目名称</th>
-										<th>单位</th>
-										<th>单价</th>
-										<th>数量</th>
-										<th>小计</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td><input type="checkbox" value=""></input></td>
-										<td>类别</td>
-										<td>项目名称</td>
-										<td>个</td>
-										<td><input type="text" value="34"></input></td>
-										<td><input type="text" value=""></input></td>
-										<td>45</td>
-									</tr>
-								</tbody>
-							</table>
-							</p>
-							<p>
-								<input type="button" class="button" value="确定选择" />
-							</p>
-						</form>
-					</div>
-
-					<!-- End #tab1 -->
-					<div class="tab-content" id="tab2">
-						<table>
-							<thead>
-								<tr>
-									<th>姓名</th>
-									<th>结帐时间</th>
-									<th>本次合计</th>
-									<th>实际收款</th>
-									<th>欠款</th>
-									<th>操作</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>姓名</td>
-									<td>1989-04-18名称</td>
-									<td>89</td>
-									<td>34</td>
-									<td>56</td>
-									<td><input type="button" value="详细"></td>
-								</tr>
-							</tbody>
-						</table>
+						<h3>张三</h3>
+						<p>
+							<strong>17th May 2009</strong> by Admin<br /> Lorem ipsum dolor
+							sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi
+							at felis aliquet congue. <small><a href="#"
+								class="remove-link" title="Remove message">Remove</a></small>
+						</p>
+						<p>
+							<strong>2nd May 2009</strong> by Jane Doe<br /> Ut a est eget
+							ligula molestie gravida. Curabitur massa. Donec eleifend, libero
+							at sagittis mollis, tellus est malesuada tellus, at luctus turpis
+							elit sit amet quam. Vivamus pretium ornare est. <small><a
+								href="#" class="remove-link" title="Remove message">Remove</a></small>
+						</p>
+						<p>
+							<strong>25th April 2009</strong> by Admin<br /> Lorem ipsum
+							dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras
+							in mi at felis aliquet congue. <small><a href="#"
+								class="remove-link" title="Remove message">Remove</a></small>
+						</p>
 					</div>
 				</div>
 			</div>
